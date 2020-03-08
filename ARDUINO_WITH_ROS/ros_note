@@ -1,0 +1,24 @@
+1. cd catkin_ws/src/
+2. git clone https://github.com/ros-drivers/rosserial.git
+3. cd ..
+4. catkin_make
+5. catkin_make install 
+# install arduino using sudo ./install.sh
+6. cd <sketchbook>/libraries
+7. rm -rf ros_lib
+8. source ~/catkin_ws/devel/setup.bash #before executing any code
+9. rosrun rosserial_arduino make_libraries.py .
+10. sudo ./arduino
+11. sudo chmod a+rw /dev/ttyACM0
+12. ls -l /dev/ttyACM0
+13. source ~/catkin_ws/devel/setup.bash
+14. rosrun rosserial_python serial_node.py /dev/ttyACM0
+15. rostopic echo chatter
+
+cmd_ros
+1. rostopic list 
+2. rostopic pub toggle_led std_msgs/Empty --once
+3. rostopic pub servo std_msgs/UInt16  <angle>
+4. rostopic pub av std_msgs/Empty --once
+5. rostopic pub ar std_msgs/Empty --once
+
