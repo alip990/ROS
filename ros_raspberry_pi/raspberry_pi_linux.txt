@@ -1,0 +1,22 @@
+Raspberry pi with ubuntu tutorial
+#ssh enable
+$ sudo apt install openssh-server
+$ sudo systemctl enable ssh.service
+$ sudo systemctl start ssh.service
+$ sudo dpkg-reconfigure openssh-server
+
+#user_name  debanik
+#passs Djdeba@123
+
+sudo apt-get install mate-desktop-enviroment-core
+sudo apt-get install vnc4server
+vncpasswd
+sudo nano /home/debanik/.vnc/xstartup
+exec  /usr/bin/mate-session &
+sudo nano /etc/rc.local
+vncserver :1 -geometry 800x600 -depth 24 &
+sudo crontab -e 
+2
+vncserver :1
+ifconfig
+ip addr show
