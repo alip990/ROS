@@ -21,3 +21,4 @@ vncserver :1
 ifconfig
 ip addr show
 # https://github.com/engcang/HC-SR04-UltraSonicSensor-ROS-RaspberryPi
+# After catkin_make always type 'source devel/setup.bash'
