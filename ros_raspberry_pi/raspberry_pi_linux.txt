@@ -20,3 +20,4 @@ sudo crontab -e
 vncserver :1
 ifconfig
 ip addr show
+# https://github.com/engcang/HC-SR04-UltraSonicSensor-ROS-RaspberryPi
