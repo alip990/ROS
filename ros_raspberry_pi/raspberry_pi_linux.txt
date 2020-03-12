@@ -22,3 +22,4 @@ ifconfig
 ip addr show
 # https://github.com/engcang/HC-SR04-UltraSonicSensor-ROS-RaspberryPi
 # After catkin_make always type 'source devel/setup.bash'
+# https://github.com/mktk1117/six_wheel_robot/blob/master/Arduino/motor_driver/motor_driver.ino
