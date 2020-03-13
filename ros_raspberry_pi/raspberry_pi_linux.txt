@@ -25,3 +25,5 @@ ip addr show
 # https://github.com/mktk1117/six_wheel_robot/blob/master/Arduino/motor_driver/motor_driver.ino
 # http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line
 #https://razbotics.wordpress.com/2018/01/23/ros-distributed-systems/
+#ssh debanik@192.168.0.100
+
