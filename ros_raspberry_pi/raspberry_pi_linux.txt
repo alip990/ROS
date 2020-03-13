@@ -26,4 +26,4 @@ ip addr show
 # http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line
 #https://razbotics.wordpress.com/2018/01/23/ros-distributed-systems/
 #ssh debanik@192.168.0.100
-
+#hostname -I
