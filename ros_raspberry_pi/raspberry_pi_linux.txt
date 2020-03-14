@@ -30,3 +30,5 @@ ip addr show
 #ssh debanik@192.168.0.100
 #hostname -I
 #https://github.com/ut-ims-robotics/tutorials/wiki/Running-ROS-over-multiple-computers
+##### ros dc motor pi
+## https://www.youtube.com/watch?v=D4gQgi8j4VY&list=PLK0b4e05LnzYHQkvmEN4YY2VCB5OdEMVV&index=20
