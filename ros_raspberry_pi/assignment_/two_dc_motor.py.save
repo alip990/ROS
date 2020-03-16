@@ -83,7 +83,7 @@ def callback(data):
         m_v.forword()
     elif data.data < 18.2:
 	m_v.right()
-
+	sleep(0.02)
 	m_v.all_stop()
        
         
