@@ -32,3 +32,4 @@ ip addr show
 #https://github.com/ut-ims-robotics/tutorials/wiki/Running-ROS-over-multiple-computers
 ##### ros dc motor pi
 ## https://www.youtube.com/watch?v=D4gQgi8j4VY&list=PLK0b4e05LnzYHQkvmEN4YY2VCB5OdEMVV&index=20
+## https://ubuntu.com/blog/getting-started-with-ubuntu-core-streaming-video-from-a-raspberry-pi
