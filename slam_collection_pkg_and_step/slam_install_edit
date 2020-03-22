@@ -40,3 +40,8 @@ sudo chmod 666 /dev/ttyUSB0
 roslaunch rplidar_ros view_rplidar.launch
 roslaunch rplidar_ros rplidar.launch
 
+# multiple_connection
+gedit .bashrc
+source .bashrc 
+export ROS_MASTER_URI=http://ubiquityrobot.local:11311/
+export ROS_IP=192.168.0.108
