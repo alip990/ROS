@@ -1,0 +1,12 @@
+#open cv
+sudo apt-get install ros-melodic-vision-opencv
+sudo apt-get install libopencv-dev 
+sudo apt-get install ros-melodic-usb-cam
+sudo apt-get install ros-melodic-image-view
+
+##########################do########################
+roscore
+rosrun usb_cam usb_cam_node _pixel_format:=yuyv
+rostopic list
+rosrun image_view image_view image:=/usb_cam/image_raw
+rosrun ros_essentials_cpp image_pub_sub.py
