@@ -38,3 +38,4 @@ $ rosrun usb_cam usb_cam_node
 Make sure you have your camera connected, before running the above command!!! you view the captured image on rviz,
 
 $ rosrun rviz rviz
+sudo apt-get install ros-kinetic-usb-cam
