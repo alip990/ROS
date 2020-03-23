@@ -43,3 +43,7 @@ sudo apt-get install ros-kinetic-usb-cam
 <param name="video_device" value="/dev/video0" />
 ############################### cam 1
 <param name="video_device" value="/dev/video1" />
+
+
+################################ turtlebot 3 ##################################
+https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/
