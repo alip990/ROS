@@ -39,3 +39,7 @@ Make sure you have your camera connected, before running the above command!!! yo
 
 $ rosrun rviz rviz
 sudo apt-get install ros-kinetic-usb-cam
+############################### cam 0
+<param name="video_device" value="/dev/video0" />
+############################### cam 1
+<param name="video_device" value="/dev/video1" />
