@@ -1,1 +1,10 @@
-source /home/debanik/hrwros_ws/devel/setup.bash
+sudo apt-get install ros-melodic-moveit
+mkdir -p ~/hrwros_ws/src
+cd ..
+catkin_make
+cd ~/hrwros_ws/src
+copy and pest the folder from edx course
+cd ..
+catkin_make
+source /home/debanik/hrwros_ws/devel/setup.bash  #do it every time 
+
