@@ -47,3 +47,7 @@ sudo apt-get install ros-kinetic-usb-cam
 
 ################################ turtlebot 3 ##################################
 https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/
+#####################################################net_work_connection
+export ROS_MASTER_URI=http://ubiquityrobot.local:11311/
+export ROS_IP=192.168.0.108
+
