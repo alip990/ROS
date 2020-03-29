@@ -39,7 +39,7 @@ def image_callback(ros_img):
         contour= max(contours,key=cv2.contourArea)
 	area = cv2.contourArea(contour)
 	print("area",area)
-        if area>2000:
+        if area>7000:
             x,y,w,h = cv2.boundingRect(contour)
 	    img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
 	    #img=cv2.circle(img,((2*x+w)/2,(2*y+h)/2),5,(255,0,0),-1)
