@@ -31,3 +31,13 @@ sudo ./arduino
 rosrun rosserial_python serial_node.py /dev/ttyACM0
 rqt_graph
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+#turtle sim with arduino
+sudo chmod a+rw /dev/ttyACM0
+ls -l /dev/ttyACM0 
+sudo ./arduino
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+change topic name *** /turtle1/cmd_vel
+rqt_graph
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
