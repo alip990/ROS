@@ -23,3 +23,11 @@ cmd_ros
 4. rostopic pub av std_msgs/Empty --once
 5. rostopic pub ar std_msgs/Empty --once
 
+#call_back motor ros 
+Permission to serial port
+sudo chmod a+rw /dev/ttyACM0
+ls -l /dev/ttyACM0
+sudo ./arduino
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+rqt_graph
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
