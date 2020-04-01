@@ -4,6 +4,7 @@
 4. catkin_make
 5. catkin_make install 
 # install arduino using sudo ./install.sh
+# /home/debanik/Downloads/arduino-1.8.12-linux64/arduino-1.8.12/libraries
 6. cd <sketchbook>/libraries
 7. rm -rf ros_lib
 8. source ~/catkin_ws/devel/setup.bash #before executing any code
