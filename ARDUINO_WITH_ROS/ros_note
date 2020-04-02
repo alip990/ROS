@@ -51,3 +51,12 @@ sudo apt-get install -y \
 cd ~/sketchbook/libraries
 mv ros_lib ~/ros_lib_backup
 rosrun rosserial_arduino make_libraries.py . ~/sketchbook/libraries
+
+
+###### rosserial_pi3
+sudo apt-get install ros-kinetic-rosserial-arduino
+sudo apt-get install ros-kinetic-rosserial
+cd <sketchbook>/libraries
+rm -rf ros_lib
+rosrun rosserial_arduino make_libraries.py .
+arduino
