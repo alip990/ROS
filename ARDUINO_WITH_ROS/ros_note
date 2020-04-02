@@ -60,3 +60,6 @@ cd <sketchbook>/libraries
 rm -rf ros_lib
 rosrun rosserial_arduino make_libraries.py .
 arduino
+sudo chmod a+rw /dev/ttyACM0
+ls -l /dev/ttyACM0
+source /opt/ros/kinetic/setup.bash
