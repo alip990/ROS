@@ -41,3 +41,13 @@ change topic name *** /turtle1/cmd_vel
 rqt_graph
 rosrun turtlesim turtlesim_node
 rosrun turtlesim turtle_teleop_key
+
+# raspberry pi rosserial
+sudo apt-get update
+sudo apt-get install -y \
+                arduino \
+                ros-kinetic-rosserial-arduino \
+                ros-kinetic-rosserial
+cd ~/sketchbook/libraries
+mv ros_lib ~/ros_lib_backup
+rosrun rosserial_arduino make_libraries.py . ~/sketchbook/libraries
