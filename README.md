@@ -1,4 +1,6 @@
 # ROS
+export ROS_MASTER_URI=http://ubiquityrobot.local:11311
+
 communication between ros subscriber and publisher via  ros topic 
 
 1.  Ubuntu install of ROS Melodic:
